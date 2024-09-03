@@ -1,0 +1,149 @@
+@font-face{
+    font-family: 'pixel';
+    src: url(letra/NerkoOne-Regular.ttf);
+    font-weight: 100;
+    
+}
+
+
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagenes/view-3d-dice-with-abstract-scenery.jpeg);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    font-family: 'pixel';
+
+}
+
+.logo {
+    width: 350px; 
+    height: auto;
+    position: relative;
+    right: -30px;
+
+    animation: moveLogoVertical 5s infinite alternate ease-in-out;
+}
+
+@keyframes moveLogoVertical {
+    0% {
+        transform: translateY(20);
+    }
+    100% {
+        transform: translateY(50px); 
+    }
+}
+.text{
+    font-family: 'pixel';
+    font-size: 3.5em;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255); 
+    color: #6b2f74;
+}
+.text2{
+    font-family: 'pixel';
+    position: relative;
+    top: 40px;
+    font-size: 3.1em;
+    color: #77336c;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+.custom-btn {
+    background-image: url(imagenes/ers.png);
+    background-position:center;
+    font-family: 'pixel';
+    text-align: center;
+    font-size: 1.8em;
+    border: 0.1px solid #ffffff; 
+    border-radius: 5px; 
+    color: #ffffff; 
+    transition: background-color 0.3s, color 0.3s; 
+    position: relative;
+    box-shadow: 0 8px 16px rgba(99, 71, 255, 0.6);
+    width: 250px;
+    height: 70px;
+    margin-top: 20px;
+    top: 40px;
+}
+.perro{
+    position: relative;
+    right: 150px;
+}
+.color{
+    background-color: yellow;
+}
+.custom-btn:hover {
+    background-color: #9235b8; 
+    color: #fff; 
+    border:3px solid rgb(54, 186, 226);
+}
+.nav-item {
+    position: relative;
+    list-style: none;
+    margin-top:20px;
+    margin-left: -0px;
+}
+.nav-link.dropdown-toggle::after {
+    display: none;
+}
+.dropdown-toggle {
+    background-color: transparent; 
+    border: none; 
+    color: #fff; 
+    font-size: 24px; 
+    position: absolute; 
+    right: 20px; 
+    top: -240px; 
+    z-index: 1000; 
+}
+
+.dropdown-menu {
+    background-color: #a42aaf63; 
+    color: #ffffff; 
+    border-radius: 8px; 
+    border: 1px solid #a42aaf; 
+    padding: 10px; 
+}
+
+.dropdown-item {
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    font-size: 18px; 
+}
+
+.dropdown-item:hover {
+    background-color: #828181; 
+    color: #fff; 
+}
+
+.dropdown-item:focus {
+    background-color: #a42aaf; 
+}
+.instagram-button-container {
+    position: relative;
+    top: 340px;
+    right: 688px;  
+    z-index: 1000; 
+}
+
+.instagram-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    background-color: #6c757d00; 
+    color: #000000; 
+    border: none;
+    font-size: 30px; 
+    cursor: pointer;
+}
+
+.instagram-button:hover {
+    background-color: #5a6268; 
+}
